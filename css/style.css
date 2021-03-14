@@ -1,12 +1,8 @@
-    .options { max-width:400px;  }
-    .options p { margin:0; font-size:0.9em; }
-    .options p.copy {
-      font-size: 0.8em;
-      color: navy;
-    }
+
 
     body {
-      background: linear-gradient(#e66465, #9198e5);
+      /*background: linear-gradient(#e66465, #9198e5)*/
+      background-color: #6272D9;
       font-family: 'Oswald', sans-serif;
     }
 
@@ -14,21 +10,22 @@
       text-align: center;
     }
     section {
-      display:flex;
-    }
+      width: 45%;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100hv;
 
+    }
+  .form-control{
+    width:50%;
+  }
     h2{
     }
 
-    #map{
-      padding-left : 2%;
-    }
-    #select {
-      padding-left: 5%;
-      width: 40%;
+    .progress{
+      width: 100%;
     }
 
-    .info {
-      padding-left : 2%;
+    .row{
+      display:flex;
     }
-    /**Progress bar */
