@@ -67,13 +67,13 @@ $('#txt-search').keyup(function(){
 		}
 			
     var regex = new RegExp(searchField, "i");
-    var output = '<div class="row">';
+    var output = '<div class="container">';
     var count = 1;
     $.each(data, function(key, val){
-    if ((val.region.search(regex) != -1) || (val.Fanbase_Name.search(regex) != -1)) {
-      output += '<div class="col-md-6 well">';
-      output += '<div class="col-md-3"><img class="img-responsive" src="'+val.profile_image+'" alt="'+ val.Fanbase_Name +'" /></div>';
-      output += '<div class="col-md-7">';
+    if ((val.region.search(regex) != -1) || (val.Fanbase_Name.search(regex) != -1) || (val.Project_Name.search(regex) != -1)) {
+      output += '<div class="contain">';
+      output += '<div class="img_hold"><img class="img-responsive" src="'+val.profile_image+'" alt="'+ val.Fanbase_Name +'" /></div>';
+      output += '<div class="text">';
       output += '<h5>' + val.Fanbase_Name + '</h5>';
       output += '<p>' + val.region + '</p>'
       output += '<p> contact on Twitter : <a href='+val.Twitter_link+'>'+val.Twitter_Handle+'</a>'
@@ -83,7 +83,7 @@ $('#txt-search').keyup(function(){
       output += '</div>';
       output += '</div>';
       if(count%2 == 0){
-      output += '</div><div class="row">'
+      output += '</div><div class="container">'
       }
       count++;
     }    

@@ -12,7 +12,7 @@
     }
     section {
       margin-top:5%;
-      width: 70%;
+      width: 90%;
       margin-left: auto;
       margin-right: auto;
       height: 100hv;
@@ -23,21 +23,38 @@
     margin-left: auto;
     margin-right: auto;
   }
-    h2{
-    }
+
+  a {
+    color: #8CF086;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #F9F871;
+    background-color: transparent;
+    text-decoration: none;
+  }
 
     .progress{
-      width: 100%;
+      width: 80%;
     }
 
-    .row{
+  .filter-records{
+    width: 100%;
+  }
+    .container{
       display:flex;
-      padding-left: 3%;
+      align-content: space-around;
+      margin-bottom: 65px;
     }
 
-    .row div {
-      width : 100%;
-    }
+.contain{
+  width: 48%;
+}
+
+
   .img-responsive{
-    width: 500px;
+    width: 90%;
+    height: 400px;
   }
