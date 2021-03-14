@@ -4,20 +4,24 @@
       /*background: linear-gradient(#e66465, #9198e5)*/
       background-color: #6272D9;
       font-family: 'Oswald', sans-serif;
+      color : white;
     }
 
     h1{
       text-align: center;
     }
     section {
-      width: 45%;
+      margin-top:5%;
+      width: 70%;
       margin-left: auto;
       margin-right: auto;
       height: 100hv;
 
     }
   .form-control{
-    width:50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
     h2{
     }
@@ -28,4 +32,12 @@
 
     .row{
       display:flex;
+      padding-left: 3%;
     }
+
+    .row div {
+      width : 100%;
+    }
+  .img-responsive{
+    width: 500px;
+  }

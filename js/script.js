@@ -17,10 +17,43 @@ var data = [
      "Twitter_Handle":"@BAE173France",
      "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
      "date_end_project": "2021/03/02",
-     "project": "95%",
+     "project": "5%",
      "Project_Name" : "Youtube ad foundraising",
-     "profile_image":"https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/BAE173OfficialLogo.jpg/220px-BAE173OfficialLogo.jpg"
-  }
+     "profile_image":"https://cdn.mokastory.com/500/2020/09/30/500_116473_1601471185.jpeg"
+  },
+  {  
+    "id":"2",
+    "Fanbase_Name":"BAE173 Indonesia",
+    "region":"Indonesia",
+    "Twitter_Handle":"@BAE173Indonesia",
+    "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
+    "date_end_project": "2021/03/02",
+    "project": "25%",
+    "Project_Name" : "Youtube ad foundraising",
+    "profile_image":"https://pbs.twimg.com/media/EnQtVZVVQAA8553.jpg"
+ },
+ {  
+  "id":"2",
+  "Fanbase_Name":"BAE173 Indonesia",
+  "region":"Indonesia",
+  "Twitter_Handle":"@BAE173Indonesia",
+  "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
+  "date_end_project": "2021/03/02",
+  "project": "25%",
+  "Project_Name" : "Youtube ad foundraising",
+  "profile_image":"https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/BAE173OfficialLogo.jpg/220px-BAE173OfficialLogo.jpg"
+},
+{  
+  "id":"2",
+  "Fanbase_Name":"BAE173 Indonesia",
+  "region":"Indonesia",
+  "Twitter_Handle":"@BAE173Indonesia",
+  "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
+  "date_end_project": "2021/03/02",
+  "project": "25%",
+  "Project_Name" : "Youtube ad foundraising",
+  "profile_image":"https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/BAE173OfficialLogo.jpg/220px-BAE173OfficialLogo.jpg"
+}
 ];
 
 
@@ -44,7 +77,9 @@ $('#txt-search').keyup(function(){
       output += '<h5>' + val.Fanbase_Name + '</h5>';
       output += '<p>' + val.region + '</p>'
       output += '<p> contact on Twitter : <a href='+val.Twitter_link+'>'+val.Twitter_Handle+'</a>'
+      output += '<p> Cuurent project : ' + val.Project_Name + '</p>'
       output += '<div class="progress"><div class="progress-bar progress-bar-striped" role="progressbar" style="width: '+val.project+'" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div></div>'
+      output += '<p> End on the ' + val.date_end_project + '</p>'
       output += '</div>';
       output += '</div>';
       if(count%2 == 0){
