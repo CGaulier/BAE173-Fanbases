@@ -4,56 +4,56 @@ var data = [
      "Fanbase_Name":"HxDFrance",
      "region":"France",
      "Twitter_Handle":"@HxDFrance",
-     "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
-     "date_end_project": "2021/03/02",
+     "Twitter_link": "https://twitter.com/HxDFrance",
+     "date_end_project": "03/28/2021",
      "project": "95%",
-     "Project_Name" : "Youtube ad foundraising",
-     "profile_image":"https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/BAE173OfficialLogo.jpg/220px-BAE173OfficialLogo.jpg"
+     "Project_Name" : "Cool website",
+     "profile_image":"https://pbs.twimg.com/profile_images/1306582944484659201/6-I7UUkB_400x400.jpg"
   },
   {  
      "id":"2",
-     "Fanbase_Name":"BAE173 France",
-     "region":"France",
-     "Twitter_Handle":"@BAE173France",
-     "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
-     "date_end_project": "2021/03/02",
-     "project": "5%",
-     "Project_Name" : "Youtube ad foundraising",
-     "profile_image":"https://cdn.mokastory.com/500/2020/09/30/500_116473_1601471185.jpeg"
+     "Fanbase_Name":"HnD YT Ads",
+     "region":"Worldwide",
+     "Twitter_Handle":"@YTAdsHnD",
+     "Twitter_link": "https://twitter.com/YTAdsHnD",
+     "date_end_project": "06/04/2021",
+     "project": "26%",
+     "Project_Name" : "FUNDRAISING EVENT",
+     "profile_image":"https://pbs.twimg.com/profile_images/1302593449162465280/LJ7pmjdN_400x400.jpg"
+  },
+    {  
+      "id":"3",
+      "Fanbase_Name":"BAE173 Philippines 🇵🇭",
+      "region":"Philippines",
+      "Twitter_Handle":"@BAE173PH",
+      "Twitter_link": "https://twitter.com/BAE173PH",
+      "date_end_project": "08/04/2021",
+      "project": "83%",
+      "Project_Name" : "Genie Streaming Project : Foundraising",
+      "profile_image":"https://pbs.twimg.com/profile_images/1348080122490880001/A_sD6ZlW_400x400.jpg"
+  },
+  {  
+    "id":"3",
+    "Fanbase_Name":"BAE173 Philippines 🇵🇭",
+    "region":"Philippines",
+    "Twitter_Handle":"@BAE173PH",
+    "Twitter_link": "https://twitter.com/BAE173PH",
+    "date_end_project": "08/04/2021",
+    "project": "43%",
+    "Project_Name" : "Genie Streaming Project : streaming volunteers",
+    "profile_image":"https://pbs.twimg.com/profile_images/1348080122490880001/A_sD6ZlW_400x400.jpg"
   },
   {  
     "id":"2",
     "Fanbase_Name":"BAE173 Indonesia",
     "region":"Indonesia",
     "Twitter_Handle":"@BAE173Indonesia",
-    "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
-    "date_end_project": "2021/03/02",
-    "project": "25%",
-    "Project_Name" : "Youtube ad foundraising",
-    "profile_image":"https://pbs.twimg.com/media/EnQtVZVVQAA8553.jpg"
- },
- {  
-  "id":"2",
-  "Fanbase_Name":"BAE173 Indonesia",
-  "region":"Indonesia",
-  "Twitter_Handle":"@BAE173Indonesia",
-  "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
-  "date_end_project": "2021/03/02",
-  "project": "25%",
-  "Project_Name" : "Youtube ad foundraising",
-  "profile_image":"https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/BAE173OfficialLogo.jpg/220px-BAE173OfficialLogo.jpg"
-},
-{  
-  "id":"2",
-  "Fanbase_Name":"BAE173 Indonesia",
-  "region":"Indonesia",
-  "Twitter_Handle":"@BAE173Indonesia",
-  "Twitter_link": "https://www.youtube.com/watch?v=_s9-rHqOwGM",
-  "date_end_project": "2021/03/02",
-  "project": "25%",
-  "Project_Name" : "Youtube ad foundraising",
-  "profile_image":"https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/BAE173OfficialLogo.jpg/220px-BAE173OfficialLogo.jpg"
-}
+    "Twitter_link": "https://twitter.com/BAE173Indonesia",
+    "date_end_project": "08/04/2021",
+    "project": "10%",
+    "Project_Name" : "BAE173 COMEBACK ALBUM SUPPORT PROJECT : GA, freebies, Donation",
+    "profile_image":"https://pbs.twimg.com/profile_images/1311880628246212608/ONoLK4DJ_400x400.jpg"
+  }
 ];
 
 
